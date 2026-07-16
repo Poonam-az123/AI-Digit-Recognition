@@ -13,6 +13,7 @@ st.set_page_config(
     page_icon="✍🏻",
     layout="centered"
 )
+model = load_model("digit_recognition_model.keras", compile=False)
 
 # ---------------- CUSTOM CSS ----------------
 
@@ -60,7 +61,6 @@ margin-top:20px;
 
 # ---------------- LOAD MODEL ----------------
 
-model = load_model("digit_recognition_model.keras", compile=False)
 
 # ---------------- HEADER ----------------
 
