@@ -127,21 +127,5 @@ if st.button("🔍 Predict Digit", use_container_width=True):
             unsafe_allow_html=True
         )
 
-        st.write("")
+       
 
-        st.subheader("Prediction Probability")
-
-        probs = prediction[0]
-
-        st.bar_chart(probs)
-
-# ---------------- FOOTER ----------------
-
-st.markdown(
-"""
-<div class='footer'>
-Made with ❤️ using Streamlit | TensorFlow | OpenCV
-</div>
-""",
-unsafe_allow_html=True
-)
