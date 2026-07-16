@@ -60,7 +60,7 @@ margin-top:20px;
 
 # ---------------- LOAD MODEL ----------------
 
-model = load_model("digit_recognition_model.keras")
+model = load_model("digit_recognition_model.keras", compile=False)
 
 # ---------------- HEADER ----------------
 
