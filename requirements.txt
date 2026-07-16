@@ -1,5 +1,5 @@
 numpy==2.2.6
 streamlit==1.59.2
 tensorflow==2.21.0
-opencv-python==5.0.0
+opencv-python==5.0.0.93
 streamlit-drawable-canvas==0.9.3
